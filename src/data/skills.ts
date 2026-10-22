@@ -1,0 +1,55 @@
+export const skillSections = [
+  {
+    title: '前端技术栈',
+    chips: [
+      { label: 'React', major: true },
+      { label: 'TypeScript', major: true },
+      { label: 'JavaScript (ES6+)', major: true },
+      { label: 'Vue 2 / Vue 3' },
+      { label: 'Vite' },
+      { label: 'Webpack' },
+      { label: 'Umi 3 / Umi 4' },
+      { label: 'Ant Design' },
+      { label: 'Element Plus' },
+      { label: 'Electron' },
+      { label: '微信小程序' },
+      { label: '移动端 H5' },
+    ],
+  },
+  {
+    title: '可视化与工程化',
+    chips: [
+      { label: 'ECharts', major: true },
+      { label: 'AntV X6 / L7 / G6' },
+      { label: 'Cesium 三维 GIS' },
+      { label: 'SuperMap' },
+      { label: '高德 / 腾讯地图' },
+      { label: '数据大屏 · 驾驶舱' },
+      { label: '微前端' },
+      { label: 'CI/CD' },
+      { label: '代码规范体系' },
+      { label: '自动化测试' },
+    ],
+  },
+  {
+    title: '后端与其他',
+    chips: [
+      { label: 'Python', major: true },
+      { label: 'FastAPI' },
+      { label: 'Node.js' },
+      { label: '大模型 Agent 对接', major: true },
+      { label: 'LangGraph' },
+      { label: '智能体应用开发' },
+    ],
+  },
+  {
+    title: '软技能',
+    chips: [
+      { label: '需求分析' },
+      { label: '技术方案设计' },
+      { label: '团队管理' },
+      { label: '跨部门协作' },
+      { label: '全流程落地' },
+    ],
+  },
+]
